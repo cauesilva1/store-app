@@ -1,12 +1,32 @@
 import react from "react";
 import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
 
-
-
-export default function FlatButton({ navigation }) {
-  const Buy= () => {
-    console.log("comprou 1 item");
-    navigation.navigate('Drinks');
+export default function FlatButton({ navigation, page }) {
+  const Buy = () => {
+    if ((page == "page1")) {
+      console.log("category");
+      navigation.navigate("Drinks");
+    } 
+    if ((page == "page2")) {
+      console.log("category");
+      navigation.navigate("Sweets");
+    }
+    if ((page == "page3")) {
+        console.log("category");
+        navigation.navigate("Snack");
+      }
+      if ((page == "page4")) {
+        console.log("category");
+        navigation.navigate("Coffee");
+      }
+      if ((page == "page5")) {
+        console.log("category");
+        navigation.navigate("Soup");
+      }
+      if ((page == "page6")) {
+        console.log("category");
+        navigation.navigate("Others");
+      }
   };
 
   return (

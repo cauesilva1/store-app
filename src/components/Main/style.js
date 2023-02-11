@@ -32,5 +32,14 @@ const styles = StyleSheet.create({
         marginHorizontal: 20,
         width: '90%',
       },
+      button: {
+        width: "55%",
+        height: 30,
+        marginTop: 10,
+        alignItems: "center",
+        justifyContent: "center",
+        backgroundColor: "rgba(0, 0, 0, 0.38)",
+        borderRadius: 20,
+      },
 });
 export default styles
