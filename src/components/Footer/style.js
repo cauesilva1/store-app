@@ -10,11 +10,18 @@ const styles = StyleSheet.create({
     },
     Footer:{
         height: 100 ,
+        width: '100%',
         marginTop: "165%",
+
         alignItems: "center",
         justifyContent: "center",
+
         backgroundColor: "green" ,
         borderRadius: 35 ,
+        
+        position: 'absolute',
+        top: 85,
+        bottom: 0,
     }
 });
 

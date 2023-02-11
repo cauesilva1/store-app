@@ -2,12 +2,18 @@ import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
     boxTitle: {
+        width:"100%",
+        height: 10,
+        padding: "5%",
+
         alignItems: "center",
         justifyContent: "center",
-        padding: "5%",
-        width:"100%",
+
         backgroundColor: "green" ,
-        borderRadius: 35 ,
+ 
+
+        borderBottomLeftRadius: 35 ,
+        borderBottomRightRadius:35,
         },
 
     textTitle:{

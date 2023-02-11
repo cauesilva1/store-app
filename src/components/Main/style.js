@@ -1,14 +1,20 @@
 import { StyleSheet } from "react-native";
 
+
+
 const styles = StyleSheet.create({
     container: {
-        flex: 1,
         width: '100%',
+        height: '10%',
+
+        flex: 1,
         alignItems: "center",
         justifyContent: "center",
         flexDirection: 'row',
         flexWrap: "wrap",
-        backgroundColor: '#ccc'
+
+        paddingBottom: 20,
+        // backgroundColor: '#ccc'
     },
     box: {
         width: 150,
@@ -28,9 +34,10 @@ const styles = StyleSheet.create({
         shadowRadius: 10,  
     },
     scrollView: {
-        backgroundColor: '#FFFFFF',
+        width: '100%',
+        height: '89%',
+        backgroundColor: '#fff',
         marginHorizontal: 20,
-        width: '90%',
       },
 });
 export default styles
