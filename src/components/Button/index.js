@@ -1,11 +1,17 @@
 import react from "react";
 import { StyleSheet,Text, TouchableOpacity, View } from "react-native";
 
-export default function FlatButton() {
+export default function FlatButton({navigation}) {
+
+    const Buy = () => {
+        console.log("comprou 1 item")
+        navigation.navigate=("Drinks")
+    }
+
     return(
         <TouchableOpacity style={styles.centrilize}>
             <View style={styles.button}>
-                <Text>Comprar</Text>
+                <Text onPress={() => Buy()}>Comprar</Text>
             </View>
         </TouchableOpacity>
     )

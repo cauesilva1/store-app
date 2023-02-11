@@ -4,7 +4,7 @@ import styles from "./style";
 import FlatButton from "../Button";
 
 
-export default function Main({}){
+export default function Drinks(){
     return(
             <ScrollView style={styles.scrollView}>
                 <View style={styles.container}>
@@ -15,22 +15,22 @@ export default function Main({}){
                 </View>
                 <View style={styles.box}>
                     <Image style={styles.Image}
-                    source={require('/store-APP/assets/snickers.png')} />
+                    source={require('/store-APP/assets/coca-lata.png')} />
                     <FlatButton style={styles.textButton} text='comprar'/>
                 </View>
                 <View style={styles.box}>
                     <Image style={styles.Image}
-                    source={require('/store-APP/assets/salgado.png')} />
+                    source={require('/store-APP/assets/coca-lata.png')} />
                     <FlatButton style={styles.textButton} text='comprar'/>
                 </View>
                 <View style={styles.box}>
                     <Image style={styles.Image}
-                    source={require('/store-APP/assets/cafe.png')} />
+                    source={require('/store-APP/assets/coca-lata.png')} />
                     <FlatButton style={styles.textButton} text='comprar'/>
                 </View>
                 <View style={styles.box}>
                     <Image style={styles.Image}
-                    source={require('/store-APP/assets/caldo.png')} />
+                    source={require('/store-APP/assets/coca-lata.png')} />
                     <FlatButton style={styles.textButton} text='comprar'/>
                 </View>
                 <View style={styles.box}>

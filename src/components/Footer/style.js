@@ -3,14 +3,13 @@ import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
     textTitle:{
-        marginBottom: "10%" ,
         color:"#F8F8F8",
         fontSize: 25,
         fontWeight: "bold"
     },
     Footer:{
         height: 100 ,
-        marginTop: "165%",
+        marginTop: 10 ,
         alignItems: "center",
         justifyContent: "center",
         backgroundColor: "green" ,
