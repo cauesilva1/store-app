@@ -1,14 +1,15 @@
 import react from 'react';
 import { StyleSheet, View } from 'react-native';
 import Main from './src/components/Main';
-import { createStackNavigator } from '@react-navigation/stack';
 import Drinks from './src/components/category/Drinks';
 import Sweets from './src/components/category/Sweets';
-import Snack from './src/components/category/snack';
+import Snack from './src/components/category/Snack';
 import Coffee from './src/components/category/Coffee';
 import Soup from './src/components/category/Soup';
 import Others from './src/components/category/Others';
 import { NavigationContainer } from '@react-navigation/native';
+import { createStackNavigator } from '@react-navigation/stack';
+
 
 const Stack = createStackNavigator();
 
