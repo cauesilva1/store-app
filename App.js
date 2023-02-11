@@ -5,27 +5,24 @@ import Main from './src/components/Main';
 import Footer from './src/components/Footer';
 import { createStackNavigator } from '@react-navigation/stack';
 import Drinks from './src/components/category/Drinks';
+import { NavigationContainer } from '@react-navigation/native';
 
 const Stack = createStackNavigator();
 
 function MyStack() {
   return (
-    <Stack.Navigator>
-      <Stack.Screen name="Main" component={Main} />
-      <Stack.Screen name="Drinks" component={Drinks} />
-    </Stack.Navigator>
+    <NavigationContainer>
+      <Stack.Navigator>
+        <Stack.Screen name="Main" component={Main} />
+        <Stack.Screen name="Drinks" component={Drinks} />
+      </Stack.Navigator>
+    </NavigationContainer>
   );
 }
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Title/>
-
-      <Main/>
-
-      <Footer/>
-    </View>
+      <MyStack/>
   );
 }
 
