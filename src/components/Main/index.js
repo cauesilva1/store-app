@@ -10,32 +10,32 @@ export default function Main(){
                 <View style={styles.container}>
                 <View style={styles.box}>
                     <Image style={styles.Image}
-                    source={require('/store-APP/assets/coca-lata.png')} />
+                    source={require('../../../assets/coca-lata.png')} />
                     <FlatButton style={styles.textButton} text='comprar'/>
                 </View>
                 <View style={styles.box}>
                     <Image style={styles.Image}
-                    source={require('/store-APP/assets/snickers.png')} />
+                    source={require('../../../assets/snickers.png')} />
                     <FlatButton style={styles.textButton} text='comprar'/>
                 </View>
                 <View style={styles.box}>
                     <Image style={styles.Image}
-                    source={require('/store-APP/assets/salgado.png')} />
+                    source={require('../../../assets/salgado.png')} />
                     <FlatButton style={styles.textButton} text='comprar'/>
                 </View>
                 <View style={styles.box}>
                     <Image style={styles.Image}
-                    source={require('/store-APP/assets/cafe.png')} />
+                    source={require('../../../assets/cafe.png')} />
                     <FlatButton style={styles.textButton} text='comprar'/>
                 </View>
                 <View style={styles.box}>
                     <Image style={styles.Image}
-                    source={require('/store-APP/assets/caldo.png')} />
+                    source={require('../../../assets/caldo.png')} />
                     <FlatButton style={styles.textButton} text='comprar'/>
                 </View>
                 <View style={styles.box}>
                     <Image style={styles.Image}
-                    source={require('/store-APP/assets/coca-lata.png')} />
+                    source={require('../../../assets/coca-lata.png')} />
                     <FlatButton style={styles.textButton} text='comprar'/>
                 </View>
                 </View>
