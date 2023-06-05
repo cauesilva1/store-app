@@ -4,7 +4,7 @@ import styles from "./style";
 import FlatButton from "../Button";
 
 
-export default function Soup(){
+export default function Caldos(){
     return(
             <ScrollView style={styles.scrollView}>
                 <View style={styles.container}>

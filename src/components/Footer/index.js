@@ -5,7 +5,7 @@ import styles from "./style";
 export default function Footer(){
     return(
             <View style={styles.Footer}>
-                <Text style={styles.textTitle}>Final</Text>
+                <Text style={styles.textTitle}></Text>
             </View>
     );
 }

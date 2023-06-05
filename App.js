@@ -16,14 +16,43 @@ const Stack = createStackNavigator();
 function MyStack() {
   return (
     <NavigationContainer>
-      <Stack.Navigator>
-        <Stack.Screen name="Main" component={Main} />
-        <Stack.Screen name="Drinks" component={Drinks} />
-        <Stack.Screen name="Sweets" component={Sweets} />
-        <Stack.Screen name="Snack" component={Snack} />
-        <Stack.Screen name="Coffee" component={Coffee} />
-        <Stack.Screen name="Soup" component={Soup} />
-        <Stack.Screen name="Others" component={Others} />
+      <Stack.Navigator
+         initialRouteName="Home"
+         screenOptions={{
+           headerMode: 'screen',
+           headerTintColor: 'white',
+           headerStyle: { backgroundColor: 'green' },}}
+      >
+        <Stack.Screen  name="Main" component={Main} 
+        options={{
+          title: false,
+        }}
+        />
+        <Stack.Screen name="Drinks" component={Drinks} 
+        options={{
+          title: 'Bebidas',
+        }}
+        />
+        <Stack.Screen name="Sweets" component={Sweets} options={{
+          title: 'Doces',
+        }}
+        />
+        <Stack.Screen name="Snack" component={Snack} options={{
+          title: 'Salgados',
+        }}
+        />
+        <Stack.Screen name="Coffee" component={Coffee} options={{
+          title: 'Café',
+        }}
+        />
+        <Stack.Screen name="Soup" component={Soup} options={{
+          title: 'Sopas',
+        }}
+        />
+        <Stack.Screen name="Others" component={Others} options={{
+          title: 'outros',
+        }}
+        />
       </Stack.Navigator>
     </NavigationContainer>
   );
@@ -36,7 +65,5 @@ export default function App() {
 }
 
 const styles = StyleSheet.create({
-  container: {
-    backgroundColor: '#F8F8F8',
-  },
+
 });

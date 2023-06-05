@@ -4,39 +4,14 @@ import styles from "./style";
 import FlatButton from "../Button";
 
 
-export default function Coffee(){
+export default function Cafe(){
     return(
             <ScrollView style={styles.scrollView}>
                 <View style={styles.container}>
                 <View style={styles.box}>
                     <Image style={styles.Image}
                     source={require('/store-APP/assets/cafe.png')} />
-                    <FlatButton style={styles.textButton} text='comprar'/>
-                </View>
-                <View style={styles.box}>
-                    <Image style={styles.Image}
-                    source={require('/store-APP/assets/cafe.png')} />
-                    <FlatButton style={styles.textButton} text='comprar'/>
-                </View>
-                <View style={styles.box}>
-                    <Image style={styles.Image}
-                    source={require('/store-APP/assets/cafe.png')} />
-                    <FlatButton style={styles.textButton} text='comprar'/>
-                </View>
-                <View style={styles.box}>
-                    <Image style={styles.Image}
-                    source={require('/store-APP/assets/cafe.png')} />
-                    <FlatButton style={styles.textButton} text='comprar'/>
-                </View>
-                <View style={styles.box}>
-                    <Image style={styles.Image}
-                    source={require('/store-APP/assets/cafe.png')} />
-                    <FlatButton style={styles.textButton} text='comprar'/>
-                </View>
-                <View style={styles.box}>
-                    <Image style={styles.Image}
-                    source={require('/store-APP/assets/cafe.png')} />
-                    <FlatButton style={styles.textButton} text='comprar'/>
+                    <FlatButton style={styles.textButton} text='Ver'/>
                 </View>
                 </View>
             </ScrollView>

@@ -7,7 +7,7 @@ import styles from "./style";
 export default function Title(){
     return(
         <View style={styles.boxTitle}>
-            <Text style={styles.textTitle}>Store</Text>
+            <Text style={styles.textTitle}>Categorias</Text>
         </View>
     );
 }

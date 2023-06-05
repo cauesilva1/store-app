@@ -7,7 +7,6 @@ const styles = StyleSheet.create({
         padding: "5%",
         width:"100%",
         backgroundColor: "green" ,
-        borderRadius: 35 ,
         },
 
     textTitle:{

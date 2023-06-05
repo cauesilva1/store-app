@@ -13,7 +13,6 @@ const styles = StyleSheet.create({
         alignItems: "center",
         justifyContent: "center",
         backgroundColor: "green" ,
-        borderRadius: 35 ,
     }
 });
 

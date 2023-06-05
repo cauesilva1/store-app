@@ -1,5 +1,5 @@
 import react from "react";
-import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
+import { StyleSheet, Text, TouchableOpacity, View} from "react-native";
 
 export default function FlatButton({ navigation, page }) {
   const Buy = () => {
@@ -32,7 +32,7 @@ export default function FlatButton({ navigation, page }) {
   return (
     <TouchableOpacity style={styles.centrilize}>
       <View style={styles.button}>
-        <Text onPress={() => Buy()}>Comprar</Text>
+        <Text style={styles.buttonText} onPress={() => Buy()}>Ver</Text>
       </View>
     </TouchableOpacity>
   );
@@ -40,16 +40,54 @@ export default function FlatButton({ navigation, page }) {
 
 const styles = StyleSheet.create({
   button: {
-    width: "55%",
+    width: 100 ,
     height: 30,
     marginTop: 10,
+    marginBottom: 10 ,
     alignItems: "center",
     justifyContent: "center",
-    backgroundColor: "rgba(0, 0, 0, 0.38)",
-    borderRadius: 20,
+    backgroundColor: "green",
+    borderRadius: '5%',
+    color: "white", 
   },
   centrilize: {
     alignItems: "center",
     justifyContent: "center",
   },
+  buttonText: {
+    color: "white", 
+  }
 });
+
+
+{/* <TouchableOpacity onPress={() => Buy()} style={styles.centrilize}>
+<View style={styles.button}>
+<Image
+      style={styles.Image}
+      source={require("/store-APP/assets/coca-lata.png")}
+    />
+</View>
+</TouchableOpacity>
+);
+}
+
+const styles = StyleSheet.create({
+centrilize: {
+alignItems: "center",
+justifyContent: "center",
+},
+Image: {
+width: 160,
+height: 160,
+resizeMode: 'contain', 
+shadowColor: "#000000" ,
+shadowOffset: {width:30, height: 50},
+shadowOpacity: 0.8,
+shadowRadius: 10,
+marginBottom: 10 ,
+marginLeft: 5 ,
+},
+text: {
+flex: 1, 
+fontSize: 20 , 
+} */}
